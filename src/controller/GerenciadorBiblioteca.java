@@ -1,3 +1,9 @@
+package controller;
+
+import model.Aluno;
+import model.Emprestimo;
+import model.Livro;
+
 import java.util.ArrayList;
 import java.util.List;
 

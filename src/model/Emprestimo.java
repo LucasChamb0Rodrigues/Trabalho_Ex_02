@@ -1,3 +1,5 @@
+package model;
+
 public class Emprestimo {
     private Aluno aluno;
     private Livro livro;
@@ -12,6 +14,6 @@ public class Emprestimo {
 
     @Override
     public String toString() {
-        return "Aluno: " + aluno.getNome() + " (Matrícula: " + aluno.getMatricula() + ") -> Livro: " + livro.getTitulo();
+        return "model.Aluno: " + aluno.getNome() + " (Matrícula: " + aluno.getMatricula() + ") -> model.Livro: " + livro.getTitulo();
     }
 }
