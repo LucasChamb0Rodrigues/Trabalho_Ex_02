@@ -21,8 +21,8 @@ public class Main {
 
         do {
             System.out.println("\n=== BIBLIOTECA ESCOLAR ===");
-            System.out.println("1. Cadastrar model.Livro");
-            System.out.println("2. Cadastrar model.Aluno");
+            System.out.println("1. Cadastrar Livro");
+            System.out.println("2. Cadastrar Aluno");
             System.out.println("3. Realizar Empréstimo");
             System.out.println("4. Registrar Devolução");
             System.out.println("5. Consultar Empréstimos Ativos");
@@ -79,12 +79,12 @@ public class Main {
     }
 
     private static void exibirLivros(List<Livro> livros) {
-        System.out.println("\nSelecione o model.Livro:");
+        System.out.println("\nSelecione o Livro:");
         for(int i=0; i<livros.size(); i++) System.out.println(i + " - " + livros.get(i));
     }
 
     private static void exibirAlunos(List<Aluno> alunos) {
-        System.out.println("\nSelecione o model.Aluno:");
+        System.out.println("\nSelecione o Aluno:");
         for(int i=0; i<alunos.size(); i++) System.out.println(i + " - " + alunos.get(i).getNome());
     }
 }
