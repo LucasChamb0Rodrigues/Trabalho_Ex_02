@@ -26,6 +26,6 @@ public class Livro {
 
     @Override
     public String toString() {
-        return String.format("model.Livro: %s | Autor: %s | Disponível: %d", titulo, autor, quantidadeDisponivel);
+        return String.format("Livro: %s | Autor: %s | Disponível: %d", titulo, autor, quantidadeDisponivel);
     }
 }

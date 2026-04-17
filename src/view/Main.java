@@ -44,7 +44,7 @@ public class Main {
                         break;
 
                     case 2:
-                        System.out.print("Nome do model.Aluno: ");
+                        System.out.print("Nome do Aluno: ");
                         String nome = scanner.nextLine();
                         System.out.print("Matrícula: ");
                         String mat = scanner.nextLine();

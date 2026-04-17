@@ -14,6 +14,6 @@ public class Emprestimo {
 
     @Override
     public String toString() {
-        return "model.Aluno: " + aluno.getNome() + " (Matrícula: " + aluno.getMatricula() + ") -> model.Livro: " + livro.getTitulo();
+        return "Aluno: " + aluno.getNome() + " (Matrícula: " + aluno.getMatricula() + ") -> Livro: " + livro.getTitulo();
     }
 }
